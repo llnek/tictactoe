@@ -1,0 +1,44 @@
+<DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta charset="utf-8"/>
+  <title>Tic Tac Toe</title>
+  <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Fascinate'  rel='stylesheet' type='text/css'>
+  <!--
+  <link rel="stylesheet" type="text/css" href="reset.css" />
+  -->
+  <link rel="stylesheet" type="text/css" href="/public/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/public/styles/main.min.css" />
+</head>
+<body>
+
+  <header>
+  <span id="scoreX" class="score">000</span>
+    <span id="title">Tic Tac Toe</span>
+  <span id="scoreO" class="score">000</span>
+  </header>
+
+  <section id="tictactoe">
+    <section id="layers">
+      <canvas id="bg" width="500" height="420"></canvas>
+      <canvas id="ui" width="500" height="420"></canvas>
+      <canvas id="game" width="500" height="420"></canvas>
+    </section>
+    <form id="menu" class="form-horizontal">
+      <span>Level: </span>
+      <select id="level">
+        <option value="1">Casual</option>
+        <option value="2">Normal</option>
+        <option value="3">Hardcore</option>
+      </select>
+      <a href="#" class="btn btn-info" id="play"><i class="icon-play icon-white"></i> Play</a>
+      <a href="#" class="btn btn-info" id="stop"><i class="icon-stop icon-white"></i> Stop</a>
+    </form>
+  </section>
+
+
+  <script data-main="/public/scripts/config.min.js" src="/public/require/require.js"></script>
+</body>
+</html>
