@@ -1,3 +1,14 @@
 build.output.folder/
-POD-INF/
+
+POD-INF/classes/*.class
+POD-INF/lib/*.jar
+POD-INF/patch/*.jar
+
+src/main/resources/less/*.min.css
+src/main/resources/js/*.min.js
+
+public/styles/*.min.css
+public/scripts/*.min.js
+
+
 

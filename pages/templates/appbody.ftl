@@ -1,18 +1,3 @@
-<DOCTYPE html>
-<html>
-  <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-  <meta charset="utf-8"/>
-  <title>Tic Tac Toe</title>
-  <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Fascinate'  rel='stylesheet' type='text/css'>
-  <!--
-  <link rel="stylesheet" type="text/css" href="reset.css" />
-  -->
-  <link rel="stylesheet" type="text/css" href="/public/bootstrap/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="/public/styles/main.min.css" />
-</head>
-<body>
 
   <header>
   <span id="scoreX" class="score">000</span>
@@ -39,6 +24,3 @@
   </section>
 
 
-  <script data-main="/public/scripts/config.min.js" src="/public/require/require.js"></script>
-</body>
-</html>

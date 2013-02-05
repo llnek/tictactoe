@@ -231,6 +231,15 @@
   <target name="release" depends="build"/>
   <target name="test" depends="test-build"/>
 
+  <target name="c4git">
+    <delete includeemptydirs="true">
+      <fileset dir="${basedir}/src/main/resources/less" includes="*.min.css"/>
+      <fileset dir="${basedir}/src/main/resources/js" includes="*.min.js"/>
+      <fileset dir="${basedir}/public/styles" includes="*.min.css"/>
+      <fileset dir="${basedir}/public/scripts" includes="*.min.js"/>
+    </delete> 
+  </target>
+
 </project>
 
 
